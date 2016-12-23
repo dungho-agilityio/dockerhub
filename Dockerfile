@@ -11,3 +11,4 @@ MAINTAINER Dung-Ho <dung.hoduy@asnet.com.vn>
 RUN mkdir mydir
 RUN touch mydir/myfile
 RUN echo 'this is my testing for container' > mydir/myfile
+RUN echo 'this is content for trigger bulding' > mydir/myfile
